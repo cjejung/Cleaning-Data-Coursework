@@ -8,12 +8,13 @@ The dataset `tidyset` contains 180 rows and 68 columns.
 
 ## Description of the variables
 
-*subject* - identifies the subject who performed the activities. Its range is from 1 to 30.
-*activity* - identifies the activity performed by the subject for which the measurements have been taken. activity can be one of: WALKING, WALKING-UPSTAIRS, WALKING-DOWNSTAIRS, SITTING, STANDING or LAYING
+**subject** - identifies the subject who performed the activities. Its range is from 1 to 30.
 
-The remaining variables contain the average of the mean and standard deviation of each of the measurements taken during the experiments.
+**activity** - identifies the activity performed by the subject for which the measurements have been taken. activity can be one of: WALKING, WALKING-UPSTAIRS, WALKING-DOWNSTAIRS, SITTING, STANDING or LAYING
 
-For more information about the variables, please refer to the following website: [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
+The remaining 66 variables contain the average of the mean and standard deviation of each of the measurements taken during the experiments.
+
+For more information about the variables and the experiments, please refer to the following website: [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
 
 ## Information on summary choices
 
