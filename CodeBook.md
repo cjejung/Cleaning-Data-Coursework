@@ -1,6 +1,6 @@
 # Code Book
 ## Introduction
-This codebook describes the dataset called `tidyset` obteined when running the `run_analysis.R` code.
+This codebook describes the dataset called `tidyset` obtained when running the `run_analysis.R` code.
 The code was created as part of the coursework for the Coursera 'Getting & Cleaning Data' course.
 
 ## Key facts
@@ -16,11 +16,11 @@ The remaining 66 variables contain the average of the mean and standard deviatio
 
 For more information about the variables and the experiments, please refer to the following website: [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
 
-## Information on summary choices
+## Data transformations
 
-All values represnt the mean of the variables. 
+The original dataset, which consisted of a training and test set, has been merged and labelled with the lookup tables provided. Only the mean and standard deviations of the measurement variables have been kept. All variables have been aggregated to represent the average across all subjects and activities. 
 
-## Experimental study design
+## Experimental study design & more information about the data
 
-For more information about the experimental design, please refer to the following website:
+For more information about the experimental design and the data, please refer to the following website:
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
